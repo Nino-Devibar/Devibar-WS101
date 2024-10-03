@@ -1,0 +1,106 @@
+* {
+    box-sizing: border-box;
+    transition-duration: 0.7s;
+}
+
+body {
+    background-color: #000000;
+
+}
+
+html {
+    font-size: 35px;
+    scroll-behavior: smooth;
+}
+
+.heading {
+    display: flex;
+    justify-content: center;
+    color: #A79277;
+}
+
+.site-title h1 {
+    font-size: 90px;
+    text-align: left;
+}
+
+.site-title h1 span {
+    text-decoration: underline;
+    font-size: 120px
+}
+
+.site-logo img {
+    max-width: 300px;
+    float: left;
+    margin-right: 50px;
+    margin-left: auto;
+}
+
+#home .navbar {
+    position: sticky;
+    top: 0;
+    overflow: hidden;
+    background-color: #6c584c;
+    padding-bottom: 20px;
+}
+
+#home .navbar a {
+    margin-top: 15px;
+    float: left;
+    font-size: 20px;
+    color: #D1BB9E;
+    text-align: center;
+    padding: 20px;
+    margin-left: 10px;
+    border-radius: 20px;
+    background-color: #EAD8C0;
+    text-transform: uppercase;
+}
+
+#home .navbar a :hover {
+    color: #6c584c
+}
+
+#home .navbar a :before {
+    content: "";
+    position: absolute;
+    inset: calc(100% - 3px) 0 0 0;
+    background: transparent;
+    scale: 0 1;
+    transition: .3s, translate 0s .3s;
+}
+
+#home .navbar a :hover:before {
+    translate: 0;
+    transition: .3s;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical
+}
+
+input[type=submit] {
+    background-color: #2804aa;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.container {
+    border-radius: 20px;
+    background-color: #666464;
+    padding: 300px;
+}
