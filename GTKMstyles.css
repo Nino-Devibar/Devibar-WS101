@@ -1,0 +1,105 @@
+body {
+    background-color: rgb(0, 0, 0);
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+#aboutMe {
+    text-align: center; 
+    margin: 2px 0;
+    color: #ffffff9f;
+    font-size: 25px;  
+    font-family: 'Caviar Dreams', sans-serif;
+}
+
+
+.arrow {
+    margin-top: 10px;
+    font-size: 40px; 
+    top: 20px;     
+    left: 25px;   
+    color: #ffffff9f; 
+}
+
+
+.slider {
+    position: fixed; bottom: 95px; width: 100%;
+    appearance: none;
+    -webkit-appearance: none;
+    width: 125rem;
+    height: 5px;
+    border-radius: 5px;  
+    background: #ff0000;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+}
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%; 
+    background: #ff0101;
+    cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #ff0000;
+    cursor: pointer;
+}
+
+.playpause {
+    position: fixed; 
+    bottom: 24px; 
+    left: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.playpause label {
+    display: block;
+    box-sizing: border-box;
+    width: 50px;
+    height: 47px;
+    border-color: transparent transparent transparent #ffffff9f;
+    transition: 100ms all ease;
+    cursor: pointer;
+    border-style: double;
+    border-width: 0px 0 0px 35px;
+
+}
+.playpause input[type=checkbox] {
+    position: absolute;
+    left: -9999px;
+    width: 50px;
+    height: 50px;
+}
+
+.playpause input[type=checkbox]:checked + label {
+    border-style: solid;
+    border-width: 25px 0 25px 42px;
+}
+
+
+.playpause input[type=checkbox]:focus + label {
+    box-shadow: 0 0 5px lightblue;
+}
+
+.f-b {
+    display: flex;   
+    justify-content: center;  
+    align-items: center;      
+    gap: 20px;             
+    position: fixed;        
+    bottom: 20px;           
+    left: 100px;            
+    color: #ffffff9f;
+}
