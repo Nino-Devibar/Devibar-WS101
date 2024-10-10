@@ -2,26 +2,136 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=0.75">
     <title>"About Me"</title>
     <link rel="stylesheet" href="GTKMstyles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.cdnfonts.com/css/caviar-dreams" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 </head>
 <body>
-    <h2 id="aboutMe">"About me"</h2>
-    <span class="arrow">&#10229;</span>
+    
+    <div class="background-image"></div>
+
+    <h2 id="aboutMe"><a href="GTKM.html">"About me"</a></h2>
+
+    <a href ="homepage.html" class="arrow"><span class="arrow">&#10229;</span></a>
+    <a class="FB" href="Feedback.html">Feedback</a>
     <div class="slidecontainer">
-        <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+        <input type="range" min="1" max="4" value="1" class="slider" id="myRange">
     </div>
     <div class="playpause">
         <input type="checkbox" value="None" id="playpause" name="check" />
         <label for="playpause" tabindex=1></label>
     </div>
-    <div class="f-b">
-        <i style="font-size:54px" class="fa">&#xf04e;</i>
-        <i style="font-size:54px" class="fa">&#xf04a;</i>
+    <div class="next" id="f-b">
+        <i style="font-size:54px" class="fa">&#xf04e;</i> <!-- Next icon -->
+        <i style="font-size:54px" class="fa">&#xf04a;</i> <!-- Previous icon -->
     </div>
+
+    <div class="slideshow-container">
+        <div class="mySlides fade">
+            <div class="slide-content">
+                <h2 class="animate__animated animate__backInDown"  id="slide-header1">Ideal Self</h2>
+                <p class="animate__animated animate__fadeInUp" id="slide-paragraph1">A confident and optimistic student who excels academically and thrives in personal growth. Possesses advanced programming skills allowing you to contribute to studies and projects. Being able to build a meaningful social life and communicate effectively, creating strong relationships. Being emotionally and mentally stable, able to handle challenges with resilience and a positive outlook. prioritizing the physical health and maintaining an active lifestyle that supports overall well-being. Ultimately, my ideal self embodies continuous growth, self-improvement, and a fulfilling, well-rounded student life.</p>
+            </div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="slide-content">
+                <h2 class="animate__animated animate__backInDown" id="slide-header2">Actual Self</h2>
+                <p class="animate__animated animate__fadeIn" id="slide-paragraph2">I often struggle with confidence and optimism as a student, facing academic challenges with doubts. While I have basic programming skills, I lack a deeper understanding of it, which makes it difficult to excel in my coursework. Building meaningful connections with people is a challenge, and I often find effective communication hard. Though I try very hard to be optimistic, I still experience instability and have difficulty maintaining resilience in the face of challenges. I tend to neglect my physical health, leading to an inactive lifestyle that impacts my overall well-being. Overall, my actual self reflects a journey of self-doubt, being lackadaisical, and being pessimistic, yearning for growth and fulfillment in my academic and personal life.</p>
+            </div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="slide-content">
+                <h2 class="animate__animated animate__backInDown" id="slide-header3">Devibar, Niño Naz L.</h2>
+            <img class="animate__animated animate__backInLeft" id="imgslide" src="https://scontent.fmnl17-4.fna.fbcdn.net/v/t1.15752-9/462540048_896012585829987_2100287687602972113_n.jpg?stp=dst-jpg_tt6&_nc_cat=105&cb=99be929b-6bbdfb60&ccb=1-7&_nc_sid=9f807c&_nc_eui2=AeFE_33mgz8aiwzTKlSOYf1YlRWY3_jXiWqVFZjf-NeJal0zFmsaFm_ZDA8xGHkHNplagtzpf_9l8ShmljjCkIHq&_nc_ohc=rC3uy_WIHF8Q7kNvgE4a5d2&_nc_ht=scontent.fmnl17-4.fna&_nc_gid=AtDxrFEyzkhJAZ1ivT4GqIr&oh=03_Q7cD1QEu_uWhbTCiKHY49z_fuM5LfTJouiKArObu-3FPQr0kkQ&oe=672C5DCF" alt="MyPic">
+<p class="animate__animated animate__fadeIn" id="D-prof">
+    Age: 17 Y/o <br>
+    Birthday: 11/09/06 <br>
+    Birthplace: Quezon City <br>
+    Status: Single <br>
+    Address: San Jose del Monte Bulacan <br>
+    First year BSIT student of Quezon City University <br>
+    Email: devibarninonazlicudine@gmail.com <br>
+</p>
+<a href=""></a>
+                <p class="animate__animated animate__fadeIn" id="slide-paragraph3">Hi! I am Nin. I am a student of QCU in a class of BAIT-1B. I am an introverted, lanky person, as my friend describes it. I have a hobby of drawing in a semi-realistic style, and I also have experience in digital arts. I would say that I am a decent person when it comes to athletics. I enjoy playing different kinds of sports. In spending my free time, I love to either play guitar, draw, play games, watch movies/animes, and read novels/manga/manhwa depending on the mood. I also love to listen to music, and honestly, I would say that I am proud of my music taste. In academics, I am specifically interested in science subjects, mainly astronomy. Though you might ask why I took the IT course, it is mainly because of the flexibility of job offerings and the lack of education in the fields of astronomy in the country. As for my skills and strengths, I am computer literate, fluent in English and Filipino, and knowledgeable in traditional and digital art. I am also trying to explore different kinds of things to see what else my skills could be. Lastly, I want to live a life where I get to spend time with my family in a small town, be financially stable, and live a decent life. Basically, I aspire to be a successful person one day.</p>
+
+            </div>
+        </div>
+
+        <div class="mySlides fade" id="MyGallery">
+            <div class="slide-content">
+                <h2 class="animate__animated animate__backInDown" id="slide-header4">Gallery</h2>
+                    <div class="" id="container">
+    <div class="card">   <img src="https://scontent.fmnl17-6.fna.fbcdn.net/v/t1.15752-9/462005888_387723057733242_2169223102087343784_n.jpg?stp=dst-jpg_tt6&_nc_cat=109&cb=99be929b-6bbdfb60&ccb=1-7&_nc_sid=9f807c&_nc_eui2=AeGmOy7mxeh0Z43HsRjEKxZYjF9rkSRSAgGMX2uRJFICAX99BAEbulATmr2OgwTrEoy-bDTPGs4qthHn-Zh1WtBH&_nc_ohc=jn2pOr0PdmwQ7kNvgE8fJjU&_nc_ht=scontent.fmnl17-6.fna&_nc_gid=AornT9ZNllKcDATTojxMe6-&oh=03_Q7cD1QECnrcGfkpu0MIGqjIgQFZH2wgdXalvMfhVrhO5rdRmZw&oe=672C75E7" alt="">    </div>
+    <div class="card">   <img src="https://scontent.fmnl17-5.fna.fbcdn.net/v/t1.15752-9/459967118_1071930557846149_8244436298796244643_n.jpg?stp=dst-jpg_tt6&_nc_cat=108&cb=99be929b-6bbdfb60&ccb=1-7&_nc_sid=9f807c&_nc_eui2=AeF68Vx0EZTvg2jg4xfj3_WqUJNmzcv0dc1Qk2bNy_R1za1Ff37X52uUF_VnucG5FvHl0TWch33D0RhGTV-4gqSF&_nc_ohc=geuFGGo5Q2AQ7kNvgH2Czfx&_nc_ht=scontent.fmnl17-5.fna&_nc_gid=AornT9ZNllKcDATTojxMe6-&oh=03_Q7cD1QEXMU5rzZdVqrZOvA4BVMv57RzGwIXHQ2bwKRry26LV2A&oe=672C7E03" alt="">    </div>
+    <div class="card">   <img src="https://scontent.fmnl17-4.fna.fbcdn.net/v/t1.15752-9/462542367_442177538390601_3241597691178753728_n.jpg?stp=dst-jpg_tt6&_nc_cat=105&cb=99be929b-6bbdfb60&ccb=1-7&_nc_sid=9f807c&_nc_eui2=AeFo8cwEdVO_yTN8yzwIdpHiNj6nPpnAR942Pqc-mcBH3vB6n-oHYx3RpRhFp52pOWbvZD2u9g_hEAsMYL8Jdmn8&_nc_ohc=cPtDle4hxJAQ7kNvgHZhbDg&_nc_ht=scontent.fmnl17-4.fna&_nc_gid=AyDIe03YEGSGSEa_AIgk_bm&oh=03_Q7cD1QHIgYcd7vtkImGJrLa8vLWv3zUcRncQ6SYXSO-Qo6yxeQ&oe=672C9B8D" alt="">    </div>
+    <div class="card">   <img src="https://scontent.fmnl17-4.fna.fbcdn.net/v/t1.15752-9/462537730_852561810330430_802214984465777741_n.jpg?stp=dst-jpg_tt6&_nc_cat=104&cb=99be929b-6bbdfb60&ccb=1-7&_nc_sid=9f807c&_nc_eui2=AeGv6IPngdRRDhpPThqAs0We6DXYVwEOfQvoNdhXAQ59CwE9B0L3U7kI8D-L6km86eOj-mw_j_bW93AdeLggOeIa&_nc_ohc=CdgSFsb-xBIQ7kNvgHZP76Y&_nc_ht=scontent.fmnl17-4.fna&_nc_gid=AjGETychAF63VysjsDXRfNG&oh=03_Q7cD1QFDUgMIsepnjexNqpn8HDxjFw9UhUqdc7mdwyEM-5spDg&oe=672C68E3" alt="">    </div>
+    <div class="card">   <img src="https://scontent.fmnl17-5.fna.fbcdn.net/v/t1.15752-9/460236162_1211026856776950_8803797770261035963_n.jpg?stp=dst-jpg_tt6&_nc_cat=108&cb=99be929b-6bbdfb60&ccb=1-7&_nc_sid=9f807c&_nc_eui2=AeHDahen-4w6bf6ADQhD98ZItBMspyCa-0y0EyynIJr7TJHxuXncpmmcsz1a4UlSZynn1lDYE5fYODDAgJVt3E9i&_nc_ohc=m9YgaE-QgvAQ7kNvgFOMq06&_nc_ht=scontent.fmnl17-5.fna&_nc_gid=AbZaQXz1w3UG17su8PgK13P&oh=03_Q7cD1QGxjyq7ycbfnAU4MyNZ4VH-ManhlDn6UF7yc6FEccjKhA&oe=672C8EB6" alt="">    </div>
+                    </div> <br>
+
+                    <div class="" id="pets">
+    <div class="card"> <img src="https://scontent.fmnl17-2.fna.fbcdn.net/v/t1.15752-9/460124662_1333093167655427_4477780694049475406_n.jpg?stp=dst-jpg_tt6&_nc_cat=111&cb=99be929b-6bbdfb60&ccb=1-7&_nc_sid=9f807c&_nc_eui2=AeH1GwUIMZvVOXG98WZOlZRyrTALvKMFn8qtMAu8owWfysWS5jeqALeo5p-571H784WsGwBg4bcCoBxsbpLmOarM&_nc_ohc=gJixkVMKdPkQ7kNvgGqpQVe&_nc_ht=scontent.fmnl17-2.fna&_nc_gid=AgA2JovAehxg3meokadB7Gl&oh=03_Q7cD1QEMiWQU5E6oMsYjD-K_7PEmBbj3QP42d2JBFe7RkEPpiA&oe=672C871D" alt="">       </div>
+    <div class="card"> <img src="https://scontent.fmnl17-3.fna.fbcdn.net/v/t1.15752-9/459430226_1160728242236325_6518410188776908760_n.jpg?stp=dst-jpg_tt6&_nc_cat=106&cb=99be929b-6bbdfb60&ccb=1-7&_nc_sid=9f807c&_nc_eui2=AeHxKqLrdGBS07pgOJXrQMvNCEd-TALeSegIR35MAt5J6FHXRn18iYh2MtC6SH6dFH7iNXf12gUXE_xhgAPhTL0V&_nc_ohc=cKK142YoimkQ7kNvgFDyBvG&_nc_ht=scontent.fmnl17-3.fna&_nc_gid=ACF22ZOkvOTdbOBA645m3ax&oh=03_Q7cD1QHemE6Yl92z2efz8ffDN47ebvsNy2o0s22dBuvx_IH9mQ&oe=672C7BFF" alt="">       </div>
+    <div class="card"> <img src="https://scontent.fmnl17-1.fna.fbcdn.net/v/t1.15752-9/459266789_474990168921211_2188106342809631723_n.jpg?stp=dst-jpg_tt6&_nc_cat=101&cb=99be929b-6bbdfb60&ccb=1-7&_nc_sid=9f807c&_nc_eui2=AeFHTGpwkEpO4CKH2rJcQxDXQhkWEf0l1hlCGRYR_SXWGbdf3AxeP1AFRaOnp8AwXObPYIaya7ojty1_N1O5iOO-&_nc_ohc=TMyp_RkyAZIQ7kNvgHaAW4O&_nc_ht=scontent.fmnl17-1.fna&_nc_gid=ACF22ZOkvOTdbOBA645m3ax&oh=03_Q7cD1QFQP9fZqs82-MgZOzism6rS0bA9-Ultd_M_jhkinrAQCA&oe=672C8648" alt="">       </div>
+    <div class="card"> <img src="https://scontent.fmnl17-6.fna.fbcdn.net/v/t1.15752-9/459991400_813045774085106_1062496144640287523_n.jpg?stp=dst-jpg_tt6&_nc_cat=110&cb=99be929b-6bbdfb60&ccb=1-7&_nc_sid=9f807c&_nc_eui2=AeHWpTnXCXLG3qd_CgfShsA8anfWE1imrvdqd9YTWKau97BDD4ZbOpHODc37t4geSvKmG8qU2Cp1ye4sg_z4EDHu&_nc_ohc=9VMBPsKJG-QQ7kNvgGJcHFZ&_nc_ht=scontent.fmnl17-6.fna&_nc_gid=ACF22ZOkvOTdbOBA645m3ax&oh=03_Q7cD1QHhU79JVEUHHKXRVXWpFMJ3rtjKcVF-pCZWxDoPlTz3ew&oe=672C9554" alt="">       </div>
+    <div class="card"> <img src="https://scontent.fmnl17-4.fna.fbcdn.net/v/t1.15752-9/459469164_515581001429773_4065523836388955474_n.jpg?stp=dst-jpg_tt6&_nc_cat=105&cb=99be929b-6bbdfb60&ccb=1-7&_nc_sid=9f807c&_nc_eui2=AeG_6GhrtcgQ9vf4UzEDb1sh8DZxEEJLse_wNnEQQkux74PtG0xpy4PUcus9Z33ljgVQOPgnwbVaWd8OHu3b_T_n&_nc_ohc=BEtb568zLvkQ7kNvgFawpig&_nc_ht=scontent.fmnl17-4.fna&_nc_gid=ACF22ZOkvOTdbOBA645m3ax&oh=03_Q7cD1QEi78bpPCefu5ow5fjjKkYgCZtFbhBGLFFYlsYjsuACsw&oe=672C813B" alt="">       </div>
+                    </div> <br>
+
+                    <p class="mention">special mention to some of my fav movies/series I have watched.</p>
+                    <br>
+
+                    <div class="" id="favs">
+                        <div class="card"> <img src="https://scontent.fmnl17-1.fna.fbcdn.net/v/t1.15752-9/442426029_1874308136403798_3412168029776282581_n.jpg?stp=dst-jpg_tt6&_nc_cat=100&cb=99be929b-6bbdfb60&ccb=1-7&_nc_sid=9f807c&_nc_eui2=AeELAx-aPMz_MRmefWoAbyLqS5uxMexp-ydLm7Ex7Gn7J0T_Ryf7s8LKXZfCx5kNwSEpcAa1kTsxCs7xVz2CjuZM&_nc_ohc=Da2P8LXd6mUQ7kNvgEBOuz3&_nc_ht=scontent.fmnl17-1.fna&_nc_gid=AwHnfNLtKQ7nTmNZJKEkxFe&oh=03_Q7cD1QF3uFcqDqG98u5LkzBZxLcrfTj4ehi0RPc0LZFyHFhHdw&oe=672F023A" alt="">       </div>
+                        <div class="card"> <img src="https://scontent.fmnl17-5.fna.fbcdn.net/v/t1.15752-9/411921752_745693776985009_6265551628808291036_n.jpg?stp=dst-jpg_tt6&_nc_cat=102&cb=99be929b-6bbdfb60&ccb=1-7&_nc_sid=9f807c&_nc_eui2=AeH1R1egd4dGDHfgxah0TIJkb7PV8MuiprBvs9Xwy6KmsLYBc9NU3p8y21-eVCgNWD9Jow24RAFK8e9bg4Kix2bp&_nc_ohc=72jKqW5ooekQ7kNvgGNZh8J&_nc_ht=scontent.fmnl17-5.fna&_nc_gid=AwHnfNLtKQ7nTmNZJKEkxFe&oh=03_Q7cD1QHnt9OP5TMZp9ALtkt4J6QQz7o-4YafSqFigNdxoz9huA&oe=672F0C13" alt="">       </div>
+                        <div class="card"> <img src="https://scontent.fmnl17-6.fna.fbcdn.net/v/t1.15752-9/432952429_1493544161579433_3799646021506217796_n.jpg?stp=dst-jpg_tt6&_nc_cat=109&cb=99be929b-6bbdfb60&ccb=1-7&_nc_sid=9f807c&_nc_eui2=AeFOaMSUg2FnQzVxMN2JnGHB5hLoKYPvh8vmEugpg--Hy5dr98Df5kYzz3IXXcgkd9EIGLC_9jBQzChETZ0-EP4f&_nc_ohc=sl6MVT8OPwUQ7kNvgFZUlmc&_nc_ht=scontent.fmnl17-6.fna&_nc_gid=AwHnfNLtKQ7nTmNZJKEkxFe&oh=03_Q7cD1QGProD-KQgmIQSn16NN2EgK-4iShyMZiFP86CiSplYnww&oe=672F1B38" alt="">       </div>
+                        <div class="card"> <img src="https://scontent.fmnl17-2.fna.fbcdn.net/v/t1.15752-9/359611049_789376849498836_719491818015666799_n.jpg?stp=dst-jpg_tt6&_nc_cat=107&cb=99be929b-6bbdfb60&ccb=1-7&_nc_sid=9f807c&_nc_eui2=AeEnyGpVq383UdD4lk-5LXnsMmoeEPnkbq0yah4Q-eRurdjHK3RJ4O1S_7AH2W-FpDeDZyZ2SgoHnHl6AE8DaY4a&_nc_ohc=JEX0GshsP7MQ7kNvgElH-EQ&_nc_ht=scontent.fmnl17-2.fna&_nc_gid=AwHnfNLtKQ7nTmNZJKEkxFe&oh=03_Q7cD1QHH6jaTfBhDV52e9jU7uKMOerT0egDMSb-wUBrvNZweow&oe=672F178A" alt="">       </div>
+                        <div class="card"> <img src="https://scontent.fmnl17-3.fna.fbcdn.net/v/t1.15752-9/368400405_171937672586932_388857031039525994_n.jpg?stp=dst-jpg_tt6&_nc_cat=106&cb=99be929b-6bbdfb60&ccb=1-7&_nc_sid=9f807c&_nc_eui2=AeH8iL-uJZePpsKIeR7e9UYIHcHItxbe_LEdwci3Ft78sesv0tTIlT_m774mkhvHoe1aTrX1vL-BdKaG-HJtdReL&_nc_ohc=bPBBngvLxvAQ7kNvgHtxedy&_nc_ht=scontent.fmnl17-3.fna&_nc_gid=AwHnfNLtKQ7nTmNZJKEkxFe&oh=03_Q7cD1QH86Fa2fO6-zpM45xzXheQcv_di2Kdo-Jvaq0wHuoBaYA&oe=672F1433" alt="">       </div>
+                    </div> <br>
+
+                    <div class="" id="favs">
+                        <div class="card"> <img src="https://scontent.fmnl17-5.fna.fbcdn.net/v/t1.15752-9/357630855_649922296702870_3558759541597865463_n.jpg?stp=dst-jpg_tt6&_nc_cat=102&cb=99be929b-6bbdfb60&ccb=1-7&_nc_sid=9f807c&_nc_eui2=AeEyZN0b_dXOaZrCqlHpBVUcCdocqc2OSlUJ2hypzY5KVcI4FsU7Y607TR8NECw-X1G-Sk0yG-k1xBzpX_D_f9Wf&_nc_ohc=XQySltfFMqcQ7kNvgFA9LOV&_nc_ht=scontent.fmnl17-5.fna&_nc_gid=AwHnfNLtKQ7nTmNZJKEkxFe&oh=03_Q7cD1QGR4ANA-UuyhCdPOpajsJFa5bodXK2p59Qfxy3vOa0zog&oe=672EEF0E" alt="">       </div>
+                        <div class="card"> <img src="https://scontent.fmnl17-5.fna.fbcdn.net/v/t1.15752-9/358158360_198950986471510_2739932497074523512_n.jpg?stp=dst-jpg_tt6&_nc_cat=108&cb=99be929b-6bbdfb60&ccb=1-7&_nc_sid=9f807c&_nc_eui2=AeEXVoI-2Vx9bxwMqfEw7pundz9DumQrQWl3P0O6ZCtBaXzZKDhykvsYiwu4USfcGszvoX2QvFbvnm0_PF7RYKOw&_nc_ohc=aLsmjQBLeAAQ7kNvgGPI_1V&_nc_ht=scontent.fmnl17-5.fna&_nc_gid=AwHnfNLtKQ7nTmNZJKEkxFe&oh=03_Q7cD1QGmPFWTzz8_J_16YXC9hbr7masnEWFFc7sEb1Nb72tTFQ&oe=672F13E4" alt="">       </div>
+                        <div class="card"> <img src="https://scontent.fmnl17-3.fna.fbcdn.net/v/t1.15752-9/346134174_1602563233580421_989158829939204610_n.jpg?stp=dst-jpg_tt6&_nc_cat=103&cb=99be929b-6bbdfb60&ccb=1-7&_nc_sid=9f807c&_nc_eui2=AeHrXgThYxj6s8lZ30B92EH4EFuTiQT5XIQQW5OJBPlchHdrlYkxDafdD6c_rpi8JGvb7nVqeKIexqsW1vfpEncd&_nc_ohc=Ra9PwMmQacIQ7kNvgEh7WPm&_nc_ht=scontent.fmnl17-3.fna&_nc_gid=AwHnfNLtKQ7nTmNZJKEkxFe&oh=03_Q7cD1QGQ6xtfNpCWfVwYCu8i3UFEb9qw9M-R7ks3Ykjv4BHSZQ&oe=672F0633" alt="">       </div>
+                        <div class="card"> <img src="https://scontent.fmnl17-5.fna.fbcdn.net/v/t1.15752-9/356546122_227829440065089_2396752303626094380_n.jpg?stp=dst-jpg_tt6&_nc_cat=102&cb=99be929b-6bbdfb60&ccb=1-7&_nc_sid=9f807c&_nc_eui2=AeGK80FVbUZDiDJ7NPPXdKZ-RFNB8qlG1ytEU0HyqUbXKxSJku0pmqOg7-j6GEzucEzqkHdK2AIiH_dOtmAEorSJ&_nc_ohc=Jc5dlLYDhWYQ7kNvgFcgXpQ&_nc_ht=scontent.fmnl17-5.fna&_nc_gid=AwHnfNLtKQ7nTmNZJKEkxFe&oh=03_Q7cD1QGXP1JmyLerJk1zCilQYSE2jTmrmjVkX5PqkagRuIuJ5w&oe=672EFA57" alt="">       </div>
+                        <div class="card"> <img src="https://scontent.fmnl17-3.fna.fbcdn.net/v/t1.15752-9/357986188_975205556845908_7104179302312134020_n.jpg?stp=dst-jpg_tt6&_nc_cat=103&cb=99be929b-6bbdfb60&ccb=1-7&_nc_sid=9f807c&_nc_eui2=AeE7aLjs15_8A94Cicbh0OKHL3sznLlZKP8vezOcuVko_62hzAI4KU3eOwNnKPqMNwvgNYIbatGOK82E68a4q7Ji&_nc_ohc=3lzBd5AHLKwQ7kNvgEiklzy&_nc_ht=scontent.fmnl17-3.fna&_nc_gid=AwHnfNLtKQ7nTmNZJKEkxFe&oh=03_Q7cD1QEho6WTam4QVBozA8KX5M395RTt0GnxxS27kQ4gVPA-Ug&oe=672F1CB1" alt="">       </div>
+                    </div> <br>
+
+
+
+            </div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="slide-content">
+            <h2 class="animate__animated animate__backInDown" id="slide-header5">RANDOM VIDEOS IN MY GALLERY</h2>
+                <video class="animate__animated animate__backInLeft" id="myvid1" width="20%" height="500" controls>
+                    <source src="60secs.mp4" type="video/mp4">
+                </video>
+                <video class="animate__animated animate__backInLeft" id="magic" width="40%" height="400" controls>
+                    <source src="magic.mp4" type="video/mp4">
+                </video>
+                <video class="animate__animated animate__backInLeft" id="grad" width="40%" height="400" controls>
+                    <source src="grad.mp4" type="video/mp4">
+                </video>
+<br>
+                <iframe class="yt" width="760" height="515" src="https://www.youtube.com/embed/0ZmQ-mdRqqk?si=ifngb4UophJcwbwx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+        <span class="dot" onclick="currentSlide(5)"></span>
+    </div>
+
 </body>
 <script src="GTKM.js"></script>
 </html>

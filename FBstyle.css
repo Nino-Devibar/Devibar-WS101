@@ -5,7 +5,7 @@
 
 body {
     background-color: #000000;
-
+overflow: hidden;
 }
 
 html {
@@ -102,5 +102,5 @@ input[type=submit]:hover {
 .container {
     border-radius: 20px;
     background-color: #666464;
-    padding: 300px;
+    padding: 165px;
 }
